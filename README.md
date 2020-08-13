@@ -27,3 +27,14 @@
 - 增加类名：`dom.classList.add('classname')`
 - 移除类名：`dom.classList.remove('classname')`
 - 动画：淡入淡出效果
+animation-name:modalopen //动画名
+animation-duration:2s //动画持续时间
+
+@keyframes modalopen{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}
