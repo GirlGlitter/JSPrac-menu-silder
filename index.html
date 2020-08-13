@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>7S</title>
+</head>
+<body>
+<nav>
+    <div class="logo">
+        <img src="img/img.png" alt="logo">
+    </div>
+    <ul>
+        <li><a href="#">主页</a>
+        <li><a href="#">关于我们</a> </li>
+        <li><a href="#">课程介绍</a> </li>
+        <li><a href="#">联系我们</a> </li>
+    </ul>
+</nav>
+<header>
+    <button id="toggle" class="toggle">
+        <i class="fa fa-bars fa-2x"></i>
+    </button>
+
+    <h1>welocme to 7ss practice</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, ullam?</p>
+    <button class="cta-btn" id="open">登录</button>
+</header>
+<div class="container">
+    <h2>为什么选择7S</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque consequatur fugit impedit iusto maxime nemo nesciunt nostrum nulla, numquam pariatur quia recusandae repellat rerum sit suscipit tempora ut voluptatum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam autem culpa, incidunt ipsum libero maxime quas tenetur totam voluptates.</p>
+    <h2>我们的教学宗旨</h2>
+    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis, consequuntur cum esse id illo inventore, iste, nisi nobis odit repellat saepe! Atque dolores harum magnam nam quam recusandae saepe.</P>
+    <h2>我们的优势</h2>
+    <ul>
+        <li>丰富的线上课程</li>
+        <li>优秀的师资团队</li>
+        <li>课后辅导集问答</li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore fuga neque rem! At consectetur deserunt, doloribus impedit necessitatibus non numquam reprehenderit! Cum ex, expedita explicabo necessitatibus odio provident saepe velit! Accusamus atque, dolore error explicabo facere, illum libero molestias, necessitatibus neque reiciendis rem sequi similique sint velit vitae? Dolor enim impedit ipsam iure tempora? Atque aut commodi doloribus in iusto pariatur? Delectus dolores laboriosam nisi porro quibusdam voluptatibus? Sunt, voluptatibus!</p>
+
+</div>
+
+<!--modal-->
+<div class="modal-container" id="modal">
+    <div class="modal">
+        <button class="close-btn" id="close">
+            <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+            <h3>登录</h3>
+        </div>
+    <div class="modal-content">
+        <p>登录了解更多课程及促销活动</p>
+        <form class="modal-form">
+            <div>
+                <label for="name">姓名</label>
+                <input type="text" id="name" placeholder="请输入姓名" class="form-input">
+            </div>
+            <div>
+                <label for="email">邮箱</label>
+                <input type="text" id="email" placeholder="请输入email" class="form-input">
+            </div>
+            <div>
+                <label for="password">密码</label>
+                <input type="password" id="password" placeholder="请输入密码" class="form-input">
+            </div>
+            <div>
+                <label for="password2">确认密码</label>
+                <input type="password" id="password2" placeholder="请输入确认密码" class="form-input">
+            </div>
+            <input type="submit" value="提交" class="submit-btn">
+        </form>
+    </div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
